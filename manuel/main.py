@@ -6,7 +6,6 @@ Puedes usar un bucle for o la función sum() con range().
 Por ejemplo, si el usuario ingresa 5, la salida debería ser 1+2+3+4+5 = 15.
 """
 def run():
-    # Comentario cualquiera para hacer la rama.
     while True:
         try:
             entero = int(input("Ingrese un entero positivo: "))
@@ -18,10 +17,8 @@ def run():
         except:
             print("Error al ingresar el número. Intente nuevamente.")
 
-    # Inicio de la suma
     suma = sum(range(entero + 1))
 
-    # Resultado
     print(f"Se ha ingresado el número {entero} y la suma del 1 hasta dicho número es {suma}.")
 
 if __name__=='__main__':
