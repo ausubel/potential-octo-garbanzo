@@ -6,7 +6,11 @@ Si el usuario ingresa 0, el factorial es 1.
 Usa un bucle for o while para multiplicar todos los números desde 1 hasta n.
 """
 def run():
-    print("Hello Miguel")
+    numero_ingresado = int(input('Ingresa un número entero positivo: '))
+    factorial = 1
+    for i in range(1, numero_ingresado + 1):
+        factorial *= i
+    print(f'El factorial de {numero_ingresado} es {factorial}')
 
 
 
