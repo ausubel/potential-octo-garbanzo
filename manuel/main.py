@@ -17,8 +17,11 @@ def run():
                 print("Entero no positivo, intente nuevamente.")
         except:
             print("Error al ingresar el número. Intente nuevamente.")
-    
+
+    # Inicio de la suma
     suma = sum(range(entero + 1))
+
+    # Resultado
     print(f"Se ha ingresado el número {entero} y la suma del 1 hasta dicho número es {suma}.")
 
 if __name__=='__main__':
